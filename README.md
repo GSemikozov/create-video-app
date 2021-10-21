@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## TODO
+1. ...
+
+## Inconsistencies to design
+1. Different colors for same type of text - #222, #000, #333, #111 (chosen #222 as main body color)
+2. Buttons has different height - 33 or 35 (chosen 24 as middle)
+3. A lot of inconsistencies according to design-system principles: no grid, random margins (not div by 4 or 8),
+in Signup user enter fullname, but is Profile we can edit firstname and surname separately etc.
+4. 

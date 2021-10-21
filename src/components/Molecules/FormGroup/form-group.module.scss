@@ -1,0 +1,29 @@
+.formGroup {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.labelText {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.helperText {
+  font-size: 12px;
+  line-height: 18px;
+  display: none;
+}

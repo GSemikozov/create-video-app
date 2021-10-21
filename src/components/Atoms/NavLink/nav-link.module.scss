@@ -1,0 +1,30 @@
+.navLink {
+  display: inline-flex;
+  font-family: "Poppins-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--colorSecondary);
+  text-decoration: none;
+
+  &:hover, &:active, &:focus, &.active {
+    color: var(--colorAccent);
+  }
+
+  &.sidebarNavLink {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--colorSecondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover, &:focus, &:active, &.active {
+      background-color: var(--backgroundAccent);
+      color: var(--colorAccent);
+    }
+  }
+}

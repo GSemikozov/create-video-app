@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "~reseter.css/css/reseter.min.css";
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./fonts/Poppins-Regular.ttf) format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(./fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(./fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+:root {
+  --white: #fff;
+  --black: #222;
+  --blue-1: #ebf2ff;
+  --blue-5: #181059;
+  --blue-4: #3860ad;
+  --blue-3: #5C90F3;
+  --grey-1: #f1f1f1;
+  --grey-2: #f4f4f4;
+  --grey-3: #e6e6e6;
+  --grey-4: #999;
+  --green-1: #46b13d;
+  --green-2: #1c7714;
+  --red: #ee6363;
+
+  --colorPrimary: var(--black);
+  --colorSecondary: var(--grey-4);
+  --colorInverted: var(--white);
+  --colorAccent: var(--blue-4);
+  --colorDanger: var(--red);
+  --colorSuccess: var(--green-1);
+
+  --borderBase: var(--grey-3);
+  --borderFocus: var(--blue-3);
+
+  --backgroundBase: var(--white);
+  --backgroundAlt: var(--grey-2);
+  --backgroundAccent: var(--blue-1);
+  --backgroundAccentInverted: var(--blue-4);
+  --backgroundSuccess: var(--green-1);
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgroundBase);
+  color: var(--colorPrimary);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* typography */
+h1,
+.h1 {
+  font-family: "Poppins-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0;
+  color: var(--colorPrimary);
+}
+
+/* utilities */
+.text-danger {
+  color: var(--colorDanger);
+}
+
+.text-accent {
+  color: var(--colorAccent);
+}
+
+.text-success {
+  color: var(--colorSuccess);
 }

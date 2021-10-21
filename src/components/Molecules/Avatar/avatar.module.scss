@@ -1,0 +1,26 @@
+.avatarWrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatarImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.avatarWrapper > button.avatarBtn {
+  color: var(--colorAccent);
+  background-color: var(--backgroundAccent);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 20px;
+}

@@ -1,0 +1,34 @@
+.sidebar {
+  padding: 12px 21px;
+  border-right: 1px solid var(--borderBase);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: sidebar;
+}
+
+.sidebarHeader {
+  margin-bottom: 60px;
+}
+
+.sidebarNav {
+
+}
+
+.sidebarContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.sidebarSection {
+  display: flex;
+  flex-direction: column;
+
+  & + & {
+    margin-top: 14px;
+  }
+}
