@@ -39,23 +39,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `yarn prettier`
 
 ## TODO
-1. Pass props to cards dynamically
+1. Pass props for cards dynamically
 2. Create BgImage component (repeated three times in cards)
-3. Cards image move to basic public folder to avoid duplications
-4. Add lazy-loading for images
-5. For inner pages content I used separate routes, instead of simple tabs - can be discussed.
-6. I used desktop-first approach as it was suggested by design, but it's easy switch to mobile-first.
+3. Add lazy-loading for images
+4. For inner pages content I used separate routes, instead of simple tabs - can be discussed.
+5. I used desktop-first approach for styles as it was suggested by design, but it's easy switch to mobile-first
+6. Improve types
+7. Improve component- and class-names.
 
 ## Inconsistencies to design
 1. Different colors for same type of text - #222, #000, #333, #111 (chosen #222 as main body color)
 2. Buttons has different height - 33 or 35 (chosen 34 as middle)
-3. A lot of inconsistencies according to design-system principles: no grid, random margins (not div by 4 or 8),
-in Signup user enter fullname, but in Profile we can edit firstname and surname separately etc.
-4. 
+3. A lot of inconsistencies according to design-system principles: no grid, random margins (not divided by 4 or 8),
+in Signup user enters his fullname, but in Profile we can edit firstname and surname separately etc.
