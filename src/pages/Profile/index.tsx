@@ -16,22 +16,25 @@ export const Profile = () => {
             <Avatar />
             <form className={styles.form}>
                 <div className={styles.formGrid}>
-                    <FormGroup labelText="First Name">
+                    <FormGroup inputId="firstname" labelText="First Name">
                         <Input
+                            id="firstname"
                             name="firstname"
                             value={firstname}
                             handleChange={(e: any) => setFirstname(e.target.value)}
                         />
                     </FormGroup>
-                    <FormGroup labelText="Last Name">
+                    <FormGroup inputId="lastname" labelText="Last Name">
                         <Input
+                            id="lastname"
                             name="lastname"
                             value={lastname}
                             handleChange={(e: any) => setLastname(e.target.value)}
                         />
                     </FormGroup>
-                    <FormGroup labelText="Email">
+                    <FormGroup inputId="email" labelText="Email">
                         <Input
+                            id="email"
                             name="email"
                             type="email"
                             value={email}

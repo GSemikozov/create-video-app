@@ -2,6 +2,10 @@
   padding: 20px;
   background: var(--backgroundAlt);
   border-radius: 20px;
+
+  @media all and (max-width: 1024px) {
+    padding: 12px;
+  }
 }
 
 .cardHeader {

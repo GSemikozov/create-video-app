@@ -41,6 +41,12 @@
       margin-bottom: 22px;
     }
   }
+
+  .button {
+    @media all and (min-width: 480px) and (max-width: 1024px) {
+      width: auto !important;
+    }
+  }
 }
 
 .title {

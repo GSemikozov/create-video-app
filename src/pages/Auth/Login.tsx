@@ -35,8 +35,13 @@ export const Login = () => {
         >
             <div className={styles.formWrapper}>
                 <form className={styles.loginForm}>
-                    <FormGroup labelText={"Email address"} className={styles.formGroup}>
+                    <FormGroup
+                        labelText={"Email address"}
+                        inputId="email"
+                        className={styles.formGroup}
+                    >
                         <Input
+                            id="email"
                             type="email"
                             name="email"
                             value={email}
@@ -45,6 +50,7 @@ export const Login = () => {
                         />
                     </FormGroup>
                     <FormGroup
+                        inputId="password"
                         labelText={"Password"}
                         className={styles.formGroup}
                         additionalLabelContent={
@@ -61,6 +67,7 @@ export const Login = () => {
                         }
                     >
                         <Input
+                            id="password"
                             type="password"
                             name="password"
                             value={password}

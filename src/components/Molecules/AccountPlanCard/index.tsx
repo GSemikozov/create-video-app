@@ -35,6 +35,7 @@ export const AccountPlanCard = memo(
                         size={ButtonSizeEnum.lg}
                         isBlock={true}
                         handleClick={handleUpdatePlan}
+                        className={styles.button}
                     >
                         Update
                     </Button>

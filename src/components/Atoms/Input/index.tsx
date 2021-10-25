@@ -8,6 +8,7 @@ export const Input = ({
     name,
     value,
     handleChange,
+    id,
     disabled = false,
 }: {
     type?: string;
@@ -15,9 +16,11 @@ export const Input = ({
     name: string;
     value: string;
     handleChange: (event: React.FormEvent<HTMLInputElement>) => void;
+    id?: string;
     disabled?: boolean;
 }) => (
     <input
+        id={id}
         type={type}
         className={styles.input}
         value={value}

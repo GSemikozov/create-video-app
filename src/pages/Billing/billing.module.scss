@@ -11,7 +11,7 @@
   overflow-x: auto;
   max-width: 60%;
 
-  @media all and (max-width: 1024px) {
+  @media all and (max-width: 1280px) {
     max-width: calc(100vw - 32px);
   }
 }

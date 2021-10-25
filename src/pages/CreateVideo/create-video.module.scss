@@ -1,9 +1,9 @@
 .pageWrapper {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 55% 1fr;
   grid-gap: 40px;
 
-  @media all and (max-width: 1014px) {
+  @media all and (max-width: 1160px) {
     grid-template-columns: auto;
   }
 }

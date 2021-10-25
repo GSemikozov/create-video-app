@@ -49,16 +49,26 @@ export const Signup = () => {
         >
             <div className={styles.formWrapper}>
                 <form className={styles.loginForm}>
-                    <FormGroup labelText={"Email address"} className={styles.formGroup}>
+                    <FormGroup
+                        inputId="name"
+                        labelText={"Email address"}
+                        className={styles.formGroup}
+                    >
                         <Input
+                            id="name"
                             name="name"
                             value={name}
                             handleChange={(event: any) => setName(event.target.value)}
                             placeholder="Full name"
                         />
                     </FormGroup>
-                    <FormGroup labelText={"Email address"} className={styles.formGroup}>
+                    <FormGroup
+                        inputId="email"
+                        labelText={"Email address"}
+                        className={styles.formGroup}
+                    >
                         <Input
+                            id="email"
                             type="email"
                             name="email"
                             value={email}
@@ -67,6 +77,7 @@ export const Signup = () => {
                         />
                     </FormGroup>
                     <FormGroup
+                        inputId="new-password"
                         labelText={"New Password"}
                         className={styles.formGroup}
                         // @ts-ignore
@@ -75,6 +86,7 @@ export const Signup = () => {
                         }
                     >
                         <Input
+                            id="new-password"
                             type="password"
                             name="password"
                             value={password}

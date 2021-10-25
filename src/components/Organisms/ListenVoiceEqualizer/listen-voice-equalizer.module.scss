@@ -29,11 +29,7 @@
 }
 
 .equalizerGraph {
-  //height: 50px;
-
-  @media all and (max-width: 767px) {
-    & > svg {
-      max-width: 100%;
-    }
+  & > svg {
+    max-width: 100%;
   }
 }
