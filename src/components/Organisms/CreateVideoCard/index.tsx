@@ -5,8 +5,6 @@ import { ButtonTypeEnum } from "../../../types";
 
 import styles from "./create-video-card.module.scss";
 
-import img from "./assets/preview.png";
-
 const VideoScriptParser = () => (
     <div className={styles.videoScriptParser}>
         <textarea
@@ -31,7 +29,11 @@ export const CreateVideoCard = () => (
     <div className={styles.card}>
         <div className={styles.cardHeader}>
             <div className={styles.cardHeaderInner}>
-                <img src={img} className={styles.cardImg} alt="img" />
+                <img
+                    src={process.env.PUBLIC_URL + "/assets/images/preview.png"}
+                    className={styles.cardImg}
+                    alt="img"
+                />
                 <Button
                     type={ButtonTypeEnum.alternate}
                     className={styles.cardHeaderButton}

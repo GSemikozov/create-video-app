@@ -7,13 +7,15 @@ import { More } from "../../icons";
 
 import styles from "./saved-videos-card.module.scss";
 
-import img from "./assets/preview.png";
-
 export const SavedVideosCard = () => (
     <div className={styles.card}>
         <div className={styles.cardHeader}>
             <div className={styles.cardHeaderInner}>
-                <img src={img} className={styles.cardImg} alt="img" />
+                <img
+                    src={process.env.PUBLIC_URL + "/assets/images/preview.png"}
+                    className={styles.cardImg}
+                    alt="img"
+                />
                 <Button
                     type={ButtonTypeEnum.link}
                     className={styles.cardHeaderButton}
