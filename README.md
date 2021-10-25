@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Publicly available via [netlify](https://create-video-app.netlify.app/)
+Publicly available on [netlify](https://create-video-app.netlify.app/)
 
 ## Available Scripts
 
