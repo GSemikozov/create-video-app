@@ -1,6 +1,6 @@
 .navLink {
   display: inline-flex;
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -25,6 +25,12 @@
     &:hover, &:focus, &:active, &.active {
       background-color: var(--backgroundAccent);
       color: var(--colorAccent);
+    }
+
+    @media all and (max-width: 767px) {
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
     }
   }
 }

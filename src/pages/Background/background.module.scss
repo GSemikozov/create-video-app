@@ -1,0 +1,9 @@
+.pageWrapper {
+  padding: 29px 0;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 150px));
+  grid-gap: 11px 15px;
+}

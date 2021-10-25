@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import useAuth from "../../../hooks/useFakeAuth";
 
 import { Logo, NavLink, UserPlaceholderIcon } from "../../Atoms";
-import { IconVideo, IconPlay } from "../../icons";
+import { IconVideo, Browse } from "../../icons";
 
 import styles from "./sidebar.module.scss";
 
@@ -24,7 +24,7 @@ export const Sidebar = () => {
                                 <IconVideo />
                             </NavLink>
                             <NavLink path="/videos" isSidebarNav={true}>
-                                <IconPlay />
+                                <Browse />
                             </NavLink>
                         </nav>
                         <Link to="/settings/profile">

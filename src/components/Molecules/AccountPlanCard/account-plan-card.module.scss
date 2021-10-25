@@ -3,10 +3,18 @@
   border-radius: 24px;
   padding: 24px;
 
+  @media all and (max-width: 767px) {
+    padding: 16px;
+  }
+
   &.current {
     transform: translateY(-30px);
     background-color: var(--backgroundSuccess);
     color: var(--colorInverted);
+
+    @media all and (max-width: 767px) {
+      transform: none;
+    }
 
     .label {
       font-family: Poppins-Medium, sans-serif;
@@ -42,7 +50,8 @@
 }
 
 .price {
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
   font-size: 30px;
   line-height: 45px;
   color: var(--blue-5);

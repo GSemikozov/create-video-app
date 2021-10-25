@@ -1,25 +1,5 @@
 @import "~reseter.css/css/reseter.min.css";
 
-@font-face {
-  font-family: "Poppins";
-  src: url(./fonts/Poppins-Regular.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Poppins-Medium";
-  src: url(./fonts/Poppins-Medium.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url(./fonts/Poppins-Bold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url(./fonts/Roboto-Regular.ttf) format("truetype");
-}
-
 :root {
   --white: #fff;
   --black: #222;
@@ -54,7 +34,7 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--backgroundBase);
@@ -71,13 +51,22 @@ body,
 /* typography */
 h1,
 .h1 {
-  font-family: "Poppins-Medium", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 33px;
   margin: 0;
   color: var(--colorPrimary);
+}
+
+h3,
+.h3 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 /* utilities */
@@ -91,4 +80,9 @@ h1,
 
 .text-success {
   color: var(--colorSuccess);
+}
+
+.accordionSection {
+  display: flex;
+  flex-direction: column;
 }

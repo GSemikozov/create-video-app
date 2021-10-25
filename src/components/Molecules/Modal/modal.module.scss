@@ -25,14 +25,18 @@
     width: 100%;
     max-width: 100%;
     background-color: transparent;
-    padding: 44px 0;
+    padding: 36px 0;
   }
 
   &.fullScreen .modalContainer {
     max-width: 1160px;
-    margin: 0 auto;
+    margin: 0 0 0 122px; // sidebar + margins
     padding: 0 15px;
     box-sizing: border-box;
+
+    @media all and (max-width: 767px) {
+      margin: 0;
+    }
   }
 
   .modalCloseBtn {

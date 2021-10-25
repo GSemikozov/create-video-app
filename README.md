@@ -46,11 +46,16 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## TODO
-1. ...
+1. Pass props to cards dynamically
+2. Create BgImage component (repeated three times in cards)
+3. Cards image move to basic public folder to avoid duplications
+4. Add lazy-loading for images
+5. For inner pages content I used separate routes, instead of simple tabs - can be discussed.
+6. I used desktop-first approach as it was suggested by design, but it's easy switch to mobile-first.
 
 ## Inconsistencies to design
 1. Different colors for same type of text - #222, #000, #333, #111 (chosen #222 as main body color)
-2. Buttons has different height - 33 or 35 (chosen 24 as middle)
+2. Buttons has different height - 33 or 35 (chosen 34 as middle)
 3. A lot of inconsistencies according to design-system principles: no grid, random margins (not div by 4 or 8),
-in Signup user enter fullname, but is Profile we can edit firstname and surname separately etc.
+in Signup user enter fullname, but in Profile we can edit firstname and surname separately etc.
 4. 

@@ -42,3 +42,9 @@ export type AccountPlanCardType = {
     descList: AccountPlanListItemType[];
     isCurrent?: boolean;
 };
+
+export enum AlignmentEnum {
+    left = "Left",
+    center = "Center",
+    right = "Right",
+}

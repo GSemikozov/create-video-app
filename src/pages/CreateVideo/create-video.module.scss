@@ -1,1 +1,15 @@
-//
+.pageWrapper {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  grid-gap: 40px;
+
+  @media all and (max-width: 1014px) {
+    grid-template-columns: auto;
+  }
+}
+
+.headerButtonsMenu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}

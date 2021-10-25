@@ -17,7 +17,7 @@
 
 .input {
   border: none;
-  border-bottom: 1px solid #B3CAF7;
+  border-bottom: 1px solid var(--blue-1);
   max-width: 324px;
   font-family: Poppins-Medium, sans-serif;
   font-style: normal;
@@ -47,6 +47,7 @@
 
 .tagsMenu {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 22px 0;
 }

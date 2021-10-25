@@ -14,6 +14,10 @@ import {
     Profile,
     Videos,
     CreateVideo,
+    Actor,
+    Background,
+    Alignment,
+    Voice,
 } from "./pages";
 
 export default function App() {
@@ -28,10 +32,10 @@ export default function App() {
                     </PrivateOutlet>
                 }
             >
-                <Route path="actor" element={<h1>Actor</h1>} />
-                <Route path="voice" element={<h1>Voice</h1>} />
-                <Route path="alignment" element={<h1>Alignment</h1>} />
-                <Route path="background" element={<h1>Background</h1>} />
+                <Route path="actor" element={<Actor />} />
+                <Route path="voice" element={<Voice />} />
+                <Route path="alignment" element={<Alignment />} />
+                <Route path="background" element={<Background />} />
             </Route>
             <Route
                 path="videos"

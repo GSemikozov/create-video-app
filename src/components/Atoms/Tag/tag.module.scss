@@ -11,4 +11,9 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
+
+  &.small {
+    padding: 1px 13px 3px;
+    height: 20px;
+  }
 }

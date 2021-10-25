@@ -1,0 +1,9 @@
+.pageWrapper {
+  padding: 29px 0;
+}
+
+.recordsGrid {
+  display: grid;
+  grid-template-columns: fit-content(100%);
+  gap: 20px;
+}

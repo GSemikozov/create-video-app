@@ -6,4 +6,8 @@ export * from "./Settings";
 export * from "./Profile";
 export * from "./Plan";
 export * from "./Billing";
+export * from "./Actor";
+export * from "./Background";
+export * from "./Alignment";
+export * from "./Voice";
 export * from "./NotFound";
