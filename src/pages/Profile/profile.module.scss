@@ -1,31 +1,31 @@
 .pageWrapper {
-  padding: 45px 9px;
+    padding: 45px 9px;
 }
 
 .form {
-  margin-top: 43px;
-  max-width: 60%;
+    margin-top: 43px;
+    max-width: 60%;
 
-  @media all and (max-width: 1024px) {
-    max-width: none;
-  }
+    @media all and (max-width: 1024px) {
+        max-width: none;
+    }
 }
 
 .formGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
 
-  @media all and (max-width: 1024px) {
-    grid-column-gap: 20px;
-  }
+    @media all and (max-width: 1024px) {
+        grid-column-gap: 20px;
+    }
 
-  @media all and (max-width: 767px) {
-    grid-template-columns: 1fr;
-  }
+    @media all and (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .formBtn {
-  margin-top: 40px;
+    margin-top: 40px;
 }

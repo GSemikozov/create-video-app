@@ -1,17 +1,17 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  grid-area: header;
-  padding: 4px 30px 27px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: header;
+    padding: 4px 30px 27px 9px;
 
-  @media all and (max-width: 767px) {
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px 0;
-  }
+    @media all and (max-width: 767px) {
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 16px 0;
+    }
 
-  &.hasBorder {
-    border-bottom: 1px solid var(--borderBase);
-  }
+    &.hasBorder {
+        border-bottom: 1px solid var(--borderBase);
+    }
 }

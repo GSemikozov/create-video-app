@@ -1,70 +1,70 @@
 .accordion {
-  display: flex;
-  flex-direction: column;
-  border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
 }
 
 .accordionButton {
-  padding: 15px 14px;
-  display: flex;
-  align-items: center;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  color: var(--colorSecondary);
-  transition: background-color 200ms ease;
-  cursor: pointer;
-  position: relative;
+    padding: 15px 14px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--colorSecondary);
+    transition: background-color 200ms ease;
+    cursor: pointer;
+    position: relative;
 
-  &:after {
-    content: "";
-    height: 1px;
-    width: calc(100% - 28px);
-    position: absolute;
-    left: 14px;
-    bottom: 0;
-    background-color: var(--borderBase);
-  }
+    &:after {
+        content: "";
+        height: 1px;
+        width: calc(100% - 28px);
+        position: absolute;
+        left: 14px;
+        bottom: 0;
+        background-color: var(--borderBase);
+    }
 }
 
 .accordionActive {
-  background-color: var(--backgroundAccent);
+    background-color: var(--backgroundAccent);
 
-  .accordionButton:after {
-    background-color: transparent;
-  }
+    .accordionButton:after {
+        background-color: transparent;
+    }
 
-  .accordionButton,
-  .accordionIcon {
-    color: var(--colorAccent);
-  }
+    .accordionButton,
+    .accordionIcon {
+        color: var(--colorAccent);
+    }
 }
 
 .accordionTitle,
 .accordionText {
-  font-family: Poppins-Medium, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
+    font-family: Poppins-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .accordionIcon {
-  margin-left: auto;
-  transition: transform 200ms ease;
-  color: var(--colorSecondary);
+    margin-left: auto;
+    transition: transform 200ms ease;
+    color: var(--colorSecondary);
 }
 
 .accordionIconRotate {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .accordionContent {
-  overflow: hidden;
-  transition: max-height 200ms ease;
+    overflow: hidden;
+    transition: max-height 200ms ease;
 }
 
 .accordionText {
-  padding: 15px 14px;
-  box-sizing: border-box;
+    padding: 15px 14px;
+    box-sizing: border-box;
 }

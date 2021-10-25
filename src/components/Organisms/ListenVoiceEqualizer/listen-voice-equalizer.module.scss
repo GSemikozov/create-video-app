@@ -1,35 +1,35 @@
 .equalizer {
-  display: inline-grid;
-  grid-template-columns: 40px 1fr;
-  grid-gap: 18px;
-  align-items: center;
-  background-color: var(--grey-1);
-  border: 1px solid var(--grey-1);
-  border-radius: 6px;
-  padding: 10px 17px;
+    display: inline-grid;
+    grid-template-columns: 40px 1fr;
+    grid-gap: 18px;
+    align-items: center;
+    background-color: var(--grey-1);
+    border: 1px solid var(--grey-1);
+    border-radius: 6px;
+    padding: 10px 17px;
 
-  &.active {
-    border-color: var(--borderFocus);
-    background-color: var(--backgroundAccent);
-    color: var(--colorAccent);
-  }
+    &.active {
+        border-color: var(--borderFocus);
+        background-color: var(--backgroundAccent);
+        color: var(--colorAccent);
+    }
 
-  &.active .title {
-    color: var(--colorAccent);
-  }
+    &.active .title {
+        color: var(--colorAccent);
+    }
 }
 
 .title {
-  font-family: Poppins-Medium, sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 18px;
-  color: var(--colorSecondary);
-  margin: 0 0 2px;
+    font-family: Poppins-Medium, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--colorSecondary);
+    margin: 0 0 2px;
 }
 
 .equalizerGraph {
-  & > svg {
-    max-width: 100%;
-  }
+    & > svg {
+        max-width: 100%;
+    }
 }

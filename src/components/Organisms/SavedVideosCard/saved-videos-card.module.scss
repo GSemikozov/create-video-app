@@ -1,49 +1,49 @@
 .card {
-  padding: 5px;
-  background: var(--backgroundAlt);
-  border-radius: 6px;
+    padding: 5px;
+    background: var(--backgroundAlt);
+    border-radius: 6px;
 }
 
 .cardHeader {
-  position: relative;
-  padding-bottom: 55%;
-  overflow: hidden;
-  border-radius: 6px;
+    position: relative;
+    padding-bottom: 55%;
+    overflow: hidden;
+    border-radius: 6px;
 }
 
 .cardHeaderInner {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .cardImg {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .cardHeaderButton {
-  position: absolute;
-  top: 11px;
-  right: 14px;
-  color: var(--colorSecondary);
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    color: var(--colorSecondary);
 }
 
 .cardBody {
-  margin-top: 11px;
+    margin-top: 11px;
 }
 
 .cardTitle {
-  margin: 0;
-  text-align: center;
+    margin: 0;
+    text-align: center;
 }
 
 .tagsMenu {
-  display: flex;
-  gap: 6px;
-  margin: 12px 0 9px;
-  justify-content: center;
+    display: flex;
+    gap: 6px;
+    margin: 12px 0 9px;
+    justify-content: center;
 }

@@ -1,88 +1,88 @@
 .pageWrapper {
-  padding: 57px 9px 40px;
+    padding: 57px 9px 40px;
 
-  @media all and (max-width: 1024px) {
-    padding: 24px 0;
-  }
+    @media all and (max-width: 1024px) {
+        padding: 24px 0;
+    }
 }
 
 .tableWrapper {
-  overflow: hidden;
-  overflow-x: auto;
-  max-width: 60%;
+    overflow: hidden;
+    overflow-x: auto;
+    max-width: 60%;
 
-  @media all and (max-width: 1280px) {
-    max-width: calc(100vw - 32px);
-  }
+    @media all and (max-width: 1280px) {
+        max-width: calc(100vw - 32px);
+    }
 }
 
 .table {
-  font-family: Poppins-Medium, sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-  min-width: 700px;
-  overflow-x: auto;
-
-  @media all and (max-width: 1024px) {
-    min-width: 540px;
-  }
-
-  &Header {
-    font-weight: 600;
-    text-transform: uppercase;
-    color: var(--colorSecondary);
-    display: grid;
-    grid-template-columns: 4fr 2fr 2fr 1fr;
+    font-family: Poppins-Medium, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    min-width: 700px;
+    overflow-x: auto;
 
     @media all and (max-width: 1024px) {
-      grid-template-columns: 240px repeat(3, 100px);
+        min-width: 540px;
     }
 
-    &Col {
-      padding: 13px 20px 13px 0;
+    &Header {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--colorSecondary);
+        display: grid;
+        grid-template-columns: 4fr 2fr 2fr 1fr;
 
-      &Text {
-        position: relative;
-        display: inline-flex;
-        white-space: nowrap;
-        cursor: pointer;
-
-        &:after {
-          content: "";
-          visibility: hidden;
-          position: absolute;
-          left: calc(100% + 2px);
-          background: url("./icons/arrow-down.svg") center no-repeat;
-          background-size: cover;
-          width: 24px;
-          height: 24px;
+        @media all and (max-width: 1024px) {
+            grid-template-columns: 240px repeat(3, 100px);
         }
 
-        &:hover:after,
-        &:focus:after,
-        &:active:after {
-          visibility: visible;
+        &Col {
+            padding: 13px 20px 13px 0;
+
+            &Text {
+                position: relative;
+                display: inline-flex;
+                white-space: nowrap;
+                cursor: pointer;
+
+                &:after {
+                    content: "";
+                    visibility: hidden;
+                    position: absolute;
+                    left: calc(100% + 2px);
+                    background: url("./icons/arrow-down.svg") center no-repeat;
+                    background-size: cover;
+                    width: 24px;
+                    height: 24px;
+                }
+
+                &:hover:after,
+                &:focus:after,
+                &:active:after {
+                    visibility: visible;
+                }
+            }
         }
-      }
-    }
-  }
-
-  &Body {
-    font-weight: 500;
-    font-size: 15px;
-
-    &Row {
-      display: grid;
-      grid-template-columns: 4fr 2fr 2fr 1fr;
-
-      @media all and (max-width: 1024px) {
-        grid-template-columns: 240px repeat(3, 100px);
-      }
     }
 
-    &Col {
-      padding: 19px 20px 19px 0;
+    &Body {
+        font-weight: 500;
+        font-size: 15px;
+
+        &Row {
+            display: grid;
+            grid-template-columns: 4fr 2fr 2fr 1fr;
+
+            @media all and (max-width: 1024px) {
+                grid-template-columns: 240px repeat(3, 100px);
+            }
+        }
+
+        &Col {
+            padding: 19px 20px 19px 0;
+        }
     }
-  }
 }

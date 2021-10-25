@@ -1,14 +1,14 @@
 .pageWrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(auto, 260px));
-  grid-gap: 32px;
-  padding: 45px 0;
-  margin-left: -15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 260px));
+    grid-gap: 32px;
+    padding: 45px 0;
+    margin-left: -15px;
 
-  @media all and (max-width: 1024px) {
-    margin-left: 0;
-    padding: 24px 0;
-    grid-gap: 24px;
-    grid-template-columns: 1fr;
-  }
+    @media all and (max-width: 1024px) {
+        margin-left: 0;
+        padding: 24px 0;
+        grid-gap: 24px;
+        grid-template-columns: 1fr;
+    }
 }

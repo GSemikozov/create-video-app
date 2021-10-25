@@ -1,20 +1,20 @@
 .input {
-  appearance: none;
-  outline: none;
-  box-shadow: none;
-  height: 40px;
-  padding: 9px 15px 8px 15px;
-  border: 1px solid #999999;
-  box-sizing: border-box;
-  border-radius: 6px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
+    appearance: none;
+    outline: none;
+    box-shadow: none;
+    height: 40px;
+    padding: 9px 15px 8px 15px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
 
-  &:focus,
-  &:active {
-    border-color: var(--borderFocus);
-  }
+    &:focus,
+    &:active {
+        border-color: var(--borderFocus);
+    }
 }

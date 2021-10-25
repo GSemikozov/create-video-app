@@ -1,53 +1,55 @@
 .openModalButton {
-  padding: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
 
-  &:hover, &:active, &:focus {
-    opacity: 0.6;
-  }
+    &:hover,
+    &:active,
+    &:focus {
+        opacity: 0.6;
+    }
 }
 
 .openModalButtonIcon {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .input {
-  border: none;
-  border-bottom: 1px solid var(--blue-1);
-  max-width: 324px;
-  font-family: Poppins-Medium, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
-  margin-bottom: 16px;
-  color: var(--colorAccent);
-  outline: none;
-  box-shadow: none;
+    border: none;
+    border-bottom: 1px solid var(--blue-1);
+    max-width: 324px;
+    font-family: Poppins-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 16px;
+    color: var(--colorAccent);
+    outline: none;
+    box-shadow: none;
 }
 
 .textarea {
-  border: none;
-  border-bottom: 1px solid var(--borderBase);
-  max-width: 764px;
-  height: auto !important;
-  font-family: Poppins-Medium, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 22px;
-  color: var(--colorSecondary);
-  outline: none;
-  box-shadow: none;
+    border: none;
+    border-bottom: 1px solid var(--borderBase);
+    max-width: 764px;
+    height: auto !important;
+    font-family: Poppins-Medium, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--colorSecondary);
+    outline: none;
+    box-shadow: none;
 }
 
 .tagsMenu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 22px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 22px 0;
 }

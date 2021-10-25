@@ -1,9 +1,9 @@
 .pageWrapper {
-  padding: 29px 9px;
+    padding: 29px 9px;
 }
 
 .cardsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(auto, 150px));
-  grid-gap: 11px 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 150px));
+    grid-gap: 11px 15px;
 }

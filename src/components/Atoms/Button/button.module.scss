@@ -1,69 +1,69 @@
 button.button {
-  outline: none;
-  box-shadow: none;
-  border: none;
-  padding: 6px 20px;
-  border-radius: 6px;
-  font-family: Poppins, sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 21px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 200ms linear;
-  text-align: center;
-
-  &:hover,
-  &:focus,
-  &:active {
-    opacity: 0.8;
-  }
-
-  &.disabled,
-  &:disabled {
-    pointer-events: none;
-    opacity: 0.5;
-  }
-
-  &.primary {
-    background-color: var(--backgroundSuccess);
-    color: var(--colorInverted);
-  }
-
-  &.secondary {
-    background-color: var(--grey-1);
-    color: var(--colorSecondary);
-  }
-
-  &.alternate {
-    background-color: var(--backgroundAccent);
-    color: var(--colorAccent);
-  }
-
-  &.link {
-    padding: 0;
-    background: none;
-    height: auto;
-    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 6px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 200ms linear;
+    text-align: center;
 
     &:hover,
     &:focus,
     &:active {
-      text-decoration: underline;
+        opacity: 0.8;
     }
-  }
 
-  &.large {
-    padding: 12px 24px;
-    height: 48px;
-    font-size: 16px;
-    line-height: 24px;
-  }
+    &.disabled,
+    &:disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
 
-  &.block {
-    width: 100%;
-  }
+    &.primary {
+        background-color: var(--backgroundSuccess);
+        color: var(--colorInverted);
+    }
+
+    &.secondary {
+        background-color: var(--grey-1);
+        color: var(--colorSecondary);
+    }
+
+    &.alternate {
+        background-color: var(--backgroundAccent);
+        color: var(--colorAccent);
+    }
+
+    &.link {
+        padding: 0;
+        background: none;
+        height: auto;
+        font-weight: 500;
+
+        &:hover,
+        &:focus,
+        &:active {
+            text-decoration: underline;
+        }
+    }
+
+    &.large {
+        padding: 12px 24px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &.block {
+        width: 100%;
+    }
 }
