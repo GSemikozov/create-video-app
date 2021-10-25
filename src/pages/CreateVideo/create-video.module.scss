@@ -1,6 +1,6 @@
 .pageWrapper {
     display: grid;
-    grid-template-columns: 55% 1fr;
+    grid-template-columns: minmax(55%, 740px) 1fr;
     grid-gap: 40px;
 
     @media all and (max-width: 1160px) {

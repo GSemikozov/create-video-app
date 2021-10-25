@@ -12,7 +12,7 @@ export const Sidebar = () => {
     const { authed } = useAuth();
 
     return (
-        <aside className={styles.sidebar}>
+        <div className={styles.sidebar}>
             <div className={styles.sidebarHeader}>
                 <Logo />
             </div>
@@ -33,6 +33,6 @@ export const Sidebar = () => {
                     </>
                 )}
             </div>
-        </aside>
+        </div>
     );
 };

@@ -51,6 +51,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 5. I used desktop-first approach for styles as it was suggested by design, but it's easy switch to mobile-first
 6. Improve types
 7. Improve component- and class-names.
+8. Make sidebar sticky?
 
 ## Inconsistencies to design
 1. Different colors for same type of text - #222, #000, #333, #111 (chosen #222 as main body color)
